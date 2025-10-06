@@ -1,0 +1,10 @@
+h1 {
+  border: 2px solid tomato;
+  text-align: center;
+}
+
+.heading2 {
+  color: yellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
