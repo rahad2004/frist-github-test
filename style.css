@@ -4,15 +4,10 @@
 /* class selector */
 /* atribute selector */
 
-*{
+* {
   padding: 0;
   border: 0;
   box-sizing: border-box;
-}
-
-h1 {
-  border: 2px solid tomato;
-  text-align: center;
 }
 
 .heading2 {
@@ -21,23 +16,44 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-#heading1{
+#heading1 {
   color: yellow !important;
 }
 
-.heading1{
-  color: cornflowerblue; 
+.heading1 {
+  color: cornflowerblue;
 }
 
-
-
-
-[href='https://www.youtube.com/']{
+[href='https://www.youtube.com/']
+{
   color: rgb(255, 217, 0);
   font-size: 100px;
 }
 
-.pera-top{
-  font-size:20px ;
+.pera-top {
+  font-size: 20px;
   text-align: justify;
 }
+
+
+
+
+/* Descendant combinator (space)
+Child combinator (>)
+Next sibling combinator (+)
+Subsequent-sibling combinator (~) */
+
+/* .combinator li{
+  color: blue;
+  font-size: 30px;
+} */
+
+/* .combinator > h1,p,.second-child{
+  color: blue;
+  font-size: 30px;
+} */
+
+/* .second-child ~ p,ul {
+  color: blue;
+  font-size: 30px;
+} */
