@@ -1,3 +1,15 @@
+/* universal selector (*) */
+/* tag selector */
+/* id selector */
+/* class selector */
+/* atribute selector */
+
+*{
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 h1 {
   border: 2px solid tomato;
   text-align: center;
@@ -7,4 +19,25 @@ h1 {
   color: yellow;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#heading1{
+  color: yellow !important;
+}
+
+.heading1{
+  color: cornflowerblue; 
+}
+
+
+
+
+[href='https://www.youtube.com/']{
+  color: rgb(255, 217, 0);
+  font-size: 100px;
+}
+
+.pera-top{
+  font-size:20px ;
+  text-align: justify;
 }
