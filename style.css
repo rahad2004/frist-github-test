@@ -4,11 +4,7 @@
 /* class selector */
 /* atribute selector */
 
-* {
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
+
 
 .heading2 {
   color: yellow;

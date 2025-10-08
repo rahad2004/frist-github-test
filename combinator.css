@@ -1,0 +1,28 @@
+/* Descendant combinator (space)
+Child combinator (>)
+Next sibling combinator (+)
+Subsequent-sibling combinator (~) */
+
+
+/* .combinator h1,li{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* .combinator > li{
+    font-size: 30px;
+    color: blue;
+} */
+
+/* h1 + h2 {
+    font-size: 30px;
+    color: blue;
+} */
+
+
+/* h1 ~ h2 {
+    font-size: 30px;
+    color: blue;
+} */
+
+
